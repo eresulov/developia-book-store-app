@@ -31,6 +31,9 @@ dependencies {
 	//Spring security
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 
+	//Swagger
+	implementation 'io.springfox:springfox-swagger2:3.0.0'
+	implementation 'io.springfox:springfox-swagger-ui:3.0.0'
 
 	//liquibase
 	implementation group: 'org.liquibase', name: 'liquibase-core', version: '4.9.0'
